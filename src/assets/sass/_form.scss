@@ -1,0 +1,217 @@
+@use 'variables';
+
+.form {
+    display: flex;
+    width: 100%;
+    margin-top: 2rem;
+    background-color: variables.$color-white;
+    overflow: hidden;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+
+    &__control {
+        width: 50%;
+        padding: 1.5rem 2rem;
+    }
+
+    &__control--bg {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: variables.$color-very-dark;
+        padding: 2.5rem 2rem;
+    }
+
+    &__group {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+
+    }
+
+    &__subtitle {
+        font-size: 1.2rem;
+        color: variables.$color-very-dark;
+        padding: .625rem 0;
+    }
+
+    &__wrapper {
+        position: relative;
+        height: 100%;
+    }
+
+    #account-value {
+        display: block;
+        padding: 0 .625rem 0 2.3rem;
+        text-align: right;
+        width: 100%;
+        height: 40px;
+        border-radius: 6px;
+        outline: none;
+        border: 2px solid transparent;
+        background-color: variables.$color-very-light;
+        font-size: variables.$font-fz;
+        font-family: variables.$font-fm;
+        font-weight: variables.$font-fw;
+        color: variables.$color-very-dark;
+        transition: all .4s ease-in;
+
+        &:hover {
+            border: 2px solid variables.$color-strong;
+        }
+    }
+
+    .bi-currency-dollar {
+        position: absolute;
+        bottom: 50%;
+        transform: translateY(50%);
+        left: 10px;
+        color: variables.$color-grayish;
+        pointer-events: none;
+    }
+
+    &__group {
+        margin-top: 1rem;
+    }
+
+    &__option {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        gap: .625rem;
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    &__option-percentage {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        border-radius: 6px;
+        text-align: center;
+        background-color: variables.$color-very-dark;
+        color: variables.$color-white;
+        font-family: variables.$font-fw;
+        cursor: pointer;
+        overflow: hidden;
+
+        &:hover {
+            background-color: variables.$color-strong;
+            color: variables.$color-very-dark;
+            border: 2px solid variables.$color-strong;
+            transition: all .4s ease-in;
+        }
+
+    }
+
+    input[type="radio"] {
+        display: none;
+    }
+
+    #percentage-custom {
+        width: 100%;
+        height: 100%;
+        text-align: right;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        font-family: variables.$font-fw;
+        font-size: variables.$font-fz;
+        font-family: variables.$font-fm;
+        background-color: variables.$color-very-light;
+
+    }
+
+    .ativo {
+        background-color: variables.$color-strong;
+        color: variables.$color-very-dark;
+        border: 2px solid variables.$color-strong;
+    }
+
+    #number-people {
+        height: 40px;
+        width: 100%;
+        text-align: right;
+        padding-right: .625rem;
+        border-radius: 6px;
+        outline: none;
+        border: 2px solid transparent;
+        background-color: variables.$color-very-light;
+        font-size: variables.$font-fz;
+        font-family: variables.$font-fm;
+        font-weight: variables.$font-fw;
+        color: variables.$color-very-dark;
+        transition: all .4s ease-in;
+
+        &:hover {
+            border: 2px solid variables.$color-strong;
+        }
+    }
+
+    .bi-person-fill {
+        position: absolute;
+        pointer-events: none;
+        bottom: 50%;
+        left: 10px;
+        transform: translateY(50%);
+        color: #7f9c9f;
+    }
+
+    &__tip-container {
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+    }
+
+    &__control--modify {
+        display: flex;
+        width: 100%;
+        padding: 0;
+        font-family: variables.$font-fm;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__amount-title {
+        font-size: 1.2rem;
+        color: variables.$color-very-light;
+        font-weight: variables.$font-fw;
+    }
+
+    &__amount-subtitle {
+        font-size: 1rem;
+        color: variables.$color-grayish;
+        font-weight: variables.$font-fw;
+    }
+
+    &__mark {
+        font-size: 2rem;
+    }
+
+    &__value {
+        display: flex;
+        gap: .325rem;
+        align-items: center;
+        font-size: 2.5rem;
+        color: variables.$color-strong;
+        font-weight: variables.$font-fw;
+    }
+
+    &__btn-reset {
+        height: 40px;
+        border-radius: 6px;
+        outline: none;
+        border: none;
+        text-transform: uppercase;
+        font-family: variables.$font-fw;
+        font-size: 18px;
+        font-weight: variables.$font-fw;
+        color: variables.$color-very-dark;
+        background-color: variables.$color-strong;
+        cursor: pointer;
+    }
+}
