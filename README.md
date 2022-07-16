@@ -1,4 +1,4 @@
-# CALCULADORA DE DIVISÃO DE CONTAS --- SPLITTER
+# CALCULADORA DE DIVISÃO DE CONTAS - SPLITTER
 [![Captura-de-tela-16-07-2022-18-48-20.png](https://i.postimg.cc/k4dBmS12/Captura-de-tela-16-07-2022-18-48-20.png)](https://postimg.cc/Nypg8Kwt)
 
 ## Objetivos💡
@@ -15,14 +15,15 @@ Clique [aqui](https://inquisitive-ganache-25823d.netlify.app/) para ir para o si
 - [Sass](https://sass-lang.com/) - Pré-processadores e frameworks para CSS.
 - [Netlify](https://www.netlify.com/) - hospedagem de site de desenvolvimento.
 
+
 ## ☕ Seja um dos contribuidores
 
-Quer fazer parte desse projeto? Clique [AQUI](https://github.com/anthonibs/registration-form-anime/blob/main/COOPERATION.md) e leia como contribuir.
+Quer fazer parte desse projeto? Clique [AQUI](https://github.com/anthonibs/tip-calculator-app-main/blob/main/CONTRIBUITION.md) e leia como contribuir.
 
 
 ## Licença
 
-Esse projeto está sob licença. Veja o arquivo [MIT](https://github.com/anthonibs/registration-form-anime/blob/main/LICENSE) para mais detalhes.
+Esse projeto está sob licença. Veja o arquivo [MIT](https://github.com/anthonibs/tip-calculator-app-main/blob/main/LICENSE.md) para mais detalhes.
 
 
 
